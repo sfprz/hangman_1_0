@@ -42,7 +42,6 @@ while vidas > 0 and "_" in palabra_oculta:
     else:
         vidas -= 1
         print("¡Incorrecto! La letra no está en la palabra. Te quedan", vidas, "vidas.")
-        print(etapas[6 - vidas])
 
     if "_" not in palabra_oculta:
         print("¡Felicidades! Has adivinado la palabra:", palabra_secreta)
