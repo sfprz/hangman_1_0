@@ -67,7 +67,7 @@ cd hangman_1_0
 py hangman.py
 ```
 
-```
+``` bash
 # macOS y Linux
 python3 hangman.py
 ```
