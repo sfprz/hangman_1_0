@@ -19,8 +19,8 @@
 - [ ] La letra no existe: comienza el dibujo 
 - [ ] La letra no existe: muestra las vidas faltantes al jugador
 ### Creacion del muñeco 
-- [ ] Crear en un archivo aparte las 6 etapas del monigote con símbolos
-- [ ] Importar el archivo del monigote en el programa principal
+- [X] Crear en un archivo aparte las 6 etapas del monigote con símbolos
+- [X] Importar el archivo del monigote en el programa principal
 - [ ] Mostrar la etapa del dibujo que corresponde a los errores del jugador
 ### Fin de la partida 
 - [ ] Si el jugador adivina la palabra: presenta el mensaje “ganaste”

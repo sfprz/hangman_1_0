@@ -60,5 +60,3 @@ etapas = [
  _|_
 """
 ]
-
-print(etapas[6])
