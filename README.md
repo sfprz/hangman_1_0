@@ -50,8 +50,8 @@
 1. Instala Python 3 si no se tiene
 2. Descarga o clona el repositorio:
 
-bash
-``` git clone https://github.com/sfprz/hangman_1_0.git 
+``` bash
+git clone https://github.com/sfprz/hangman_1_0.git 
 ``` 
 
 3. Entra a la carpeta del programa:
@@ -80,15 +80,14 @@ python3 hangman.py
 > [!TIP]
 > Para agregar más palabras, abre palabras.py y añádelas a la lista lista_palabras, cada una entre comillas y separada por comas.
 
+> [!WARNING]
+> Las palabras nuevas deben ir en mayúsculas, sin tildes ni Ñ, y sin espacios ni guiones. Si no, el jugador no podrá adivinarlas y la partida no se podrá ganar.
+
 > [!NOTE]
 > Se aceptan solo letras de la A a la Z sin contar la Ñ o las tildes. 
 
 > [!NOTE]
 > Las etapas del dibujo estan desde 0 (siendo la horca vacia) y 6 (siendo el muñeco completo), para que las posiciones de las vidas vayan acorde de 1 a 6 
 
-> [!WARNING]
-> Las palabras nuevas deben ir en mayúsculas, sin tildes ni Ñ, y sin espacios ni guiones. Si no, el jugador no podrá adivinarlas y la partida no se podrá ganar.
-> [!NOTE] 
-> Se aceptan solo letras de la A a la Z sin contar la Ñ o las tildes. 
-> [!NOTE] 
-> Las etapas del dibujo estan desde 0 siendo la horca vacia y 6 siendo el muñeco completo, para que las posiciones de las vidas vayan acorde de 1 a 6 
+
+
