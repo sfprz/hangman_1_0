@@ -22,10 +22,16 @@ while True:
         print("Debe ingresar una letra del abecedario")
         continue
     elif letra in letras_usadas:
-        print("Ya has ingresado esa letra")
+        print("Ya ha utilizado la letra")
         continue
     letras_usadas.append(letra)
     break
 
+if letra in palabra_secreta:
+    for i in range(len(palabra_secreta)):
+        if palabra_secreta[i] == letra:
+            palabra_oculta[i] = letra
+    print("¡Correcto! La letra está en la palabra.")
 
+print("Palabra oculta:", " ".join(palabra_oculta))
 
