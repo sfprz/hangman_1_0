@@ -52,4 +52,21 @@ while vidas > 0 and "_" in palabra_oculta:
         print("¡Has perdido! La palabra era:", palabra_secreta)
         break
 
+while True:
+    print("¿Desea jugar de nuevo? (S/N)")
+    respuesta = input().upper()
+    if respuesta == "S":
+        palabra_secreta = random.choice(lista_palabras)
+        palabra_oculta = ["_"] * len(palabra_secreta)
+        letras_usadas = []
+        vidas = 6
+        continue
+    elif respuesta == "N":
+        print("¡Gracias por jugar!")
+        break
+    else:
+        print("Debe ingresar S o N")
 
+
+
+      
