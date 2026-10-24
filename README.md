@@ -28,7 +28,7 @@
 - [X] Si el jugador pierde las 6 vidas: presenta contador en 0
 - [X] Si el jugador pierde las 6 vidas: Termina el dibujo 
 - [X] Si el jugador pierde las 6 vidas: Destapa la palabra oculta
-- [ ] Al terminar (no importa si gana o pierde): muestra la opción de volver a jugar o finalizar (cerrar el programa)
+- [X] Al terminar (no importa si gana o pierde): muestra la opción de volver a jugar o finalizar (cerrar el programa)
 ### Ciclo del juego
 - [X] Repetir el turno (pedir letra, validar, revisar) mientras el jugador tenga vidas y no haya adivinado la palabra
 - [X] Mostrar la palabra oculta con sus guiones y letras acertadas al inicio de cada turno
@@ -36,9 +36,9 @@
 - [X] Detectar que el jugador ganó cuando ya no quedan guiones en la palabra oculta
 - [X] Detectar que el jugador perdió cuando las vidas llegan a 0
 ### Volver a jugar
-- [ ] Validar que la respuesta del menú final sea una de las dos opciones permitidas
-- [ ] Si elige jugar de nuevo, reiniciar todo (nueva palabra, vidas, letras usadas)
-- [ ] Si elige finalizar, cerrar el programa
+- [X] Validar que la respuesta del menú final sea una de las dos opciones permitidas
+- [X] Si elige jugar de nuevo, reiniciar todo (nueva palabra, vidas, letras usadas)
+- [X] Si elige finalizar, cerrar el programa
 ### Estructura y entrega
 - [X] Carpeta del programa llamada `hangman_1_0` con 3 archivos (principal, palabras y dibujo)
 - [X] Repositorio público en GitHub, con un commit por cada requerimiento
