@@ -8,13 +8,14 @@
 - [X] genera una palabra oculta seleccionada aleatoriamente
 - [X] reemplaza cada carácter por el símbolo “_”
 - [X] pide al usuario que ingrese una letra por consola 
+- [X] Importar el archivo de palabras en el programa principal
 ### Verificación de la letra
 - [X] verifica que sea solo una letra 
 - [X] verifica si la letra se encuentra entre la A y Z
 - [X] verifica si la letra no se ha utilizado previamente 
 - [X] verifica si la letra existe en la palabra
 - [X] La letra existe: reemplaza el guion una o varias veces
-- [ ] La letra no existe: Borra una de las 6 vidas 
+- [X] La letra no existe: Borra una de las 6 vidas 
 - [ ] La letra no existe: comienza el dibujo 
 - [ ] La letra no existe: muestra las vidas faltantes al jugador
 ### Creacion del muñeco 
@@ -45,3 +46,4 @@
 - [ ] README con encabezados y Alert Types
 
 > [!NOTE] Se aceptan solo palabras de la A a la Z sin contar la Ñ o las tildes. 
+> [!NOTE] Las etapas del dibujo estan desde 0 siendo la horca vacia y 6 siendo el muñeco completo, para que las posiciones de las vidas vayan acorde de 1 a 6 

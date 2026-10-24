@@ -1,9 +1,11 @@
 from palabras import lista_palabras
+from dibujo import etapas
 import random
 
-# Abecedario para la confirmacion
+# Confirmaciones
 abecedario = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 letras_usadas = []
+vidas = 6
 
 # Seleccionar una palabra al azar
 palabra_secreta = random.choice(lista_palabras)
@@ -32,6 +34,9 @@ if letra in palabra_secreta:
         if palabra_secreta[i] == letra:
             palabra_oculta[i] = letra
     print("¡Correcto! La letra está en la palabra.")
+    print("Palabra oculta:", " ".join(palabra_oculta))
+else:
+    vidas -= 1
+    print("¡Incorrecto! La letra no está en la palabra. Te quedan", vidas, "vidas.")
 
-print("Palabra oculta:", " ".join(palabra_oculta))
 
