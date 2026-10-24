@@ -42,16 +42,21 @@ while True:
             print("¡Correcto! La letra está en la palabra.")
         else:
             vidas -= 1
+            print("\n")
             print("¡Incorrecto! La letra no está en la palabra. Te quedan", vidas, "vidas.")
 
         if "_" not in palabra_oculta:
+            print("\n")
             print("¡Felicidades! Has adivinado la palabra:", palabra_secreta)
             break
         if vidas == 0:
+            print("\n")
             print(etapas[6])
             print("¡Has perdido! La palabra era:", palabra_secreta)
+            print("\n")
             break
     while True:
+        print("\n")
         print("¿Desea jugar de nuevo? (S/N)")
         respuesta = input().upper()
         if respuesta == "S":
@@ -61,12 +66,17 @@ while True:
             vidas = 6
             break
         elif respuesta == "N":
+            print("\n")
             break
         else:
+            print("\n")
             print("Debe ingresar S o N")
     if respuesta == "N":
+        print("\n")
         print("¡Gracias por jugar! ¡Hasta luego!")
+        print("\n")
         break
+
 
 
 
