@@ -42,9 +42,45 @@
 ### Estructura y entrega
 - [X] Carpeta del programa llamada `hangman_1_0` con 3 archivos (principal, palabras y dibujo)
 - [X] Repositorio público en GitHub, con un commit por cada requerimiento
-- [ ] README con nombre, correo y cómo ejecutar el programa
-- [ ] README con encabezados y Alert Types
+- [X] README con nombre, correo y cómo ejecutar el programa
+- [X] README con encabezados y Alert Types
 
+## Cómo ejecutar
+
+1. Instala Python 3 si no se tiene
+2. Descarga o clona el repositorio:
+
+# bash
+``` git clone https://github.com/sfprz/hangman_1_0.git 
+``` 
+
+3. Entra a la carpeta del programa:
+
+``` bash
+cd hangman_1_0 
+```
+
+4. Ejecuta el archivo principal:
+
+``` bash
+# Windows
+py hangman.py ```
+
+```# macOS y Linux
+python3 hangman.py
+```
+
+> [!IMPORTANT]
+> Para ejecutar el juego se debe estar dentro de la carpeta hangman_1_0 ya que los 3 archivos deben estar juntos para que funcione. 
+
+> [!TIP]
+> Se aceptan letras mayúsculas y minúsculas
+
+> [!TIP]
+> Para agregar más palabras, abre palabras.py y añádelas a la lista lista_palabras, cada una entre comillas y separada por comas.
+
+> [!WARNING]
+> Las palabras nuevas deben ir en mayúsculas, sin tildes ni Ñ, y sin espacios ni guiones. Si no, el jugador no podrá adivinarlas y la partida no se podrá ganar.
 > [!NOTE] 
 > Se aceptan solo letras de la A a la Z sin contar la Ñ o las tildes. 
 > [!NOTE] 
