@@ -61,11 +61,12 @@ while True:
             vidas = 6
             break
         elif respuesta == "N":
-            print("¡Gracias por jugar!")
             break
         else:
             print("Debe ingresar S o N")
-
+    if respuesta == "N":
+        print("¡Gracias por jugar! ¡Hasta luego!")
+        break
 
 
 
