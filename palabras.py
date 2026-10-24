@@ -1,0 +1,2 @@
+lista_palabras = [ "PYTHON", "TECLADO", "PANTALLA", "MOUSE", "CODIGO", "VARIABLE",
+"PROGRAMA", "BUCLE", "CLASE", "FUNCION" ]
